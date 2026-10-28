@@ -202,3 +202,12 @@ input[type=range]{background:#3a0c12}input[type=range]::-webkit-slider-thumb{bac
 .timeline{border-left-color:var(--red)}.timeline li{border-bottom-color:var(--line)}.timeline li:before{background:var(--red2);box-shadow:0 0 10px var(--red2)}
 .rel-player{border-color:var(--red);background:#120507}.rel-player-head a{color:var(--red2)}
 .tab.on{border-color:var(--red2)}
+
+/* layout additions */
+.more-btn{margin-top:18px;cursor:pointer;background:transparent}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.vfig{margin:0}.vfig figcaption{margin-top:8px;color:#eee;font-size:.9em}
+.vcard,.vframe{display:block;position:relative;aspect-ratio:16/9;border:1px solid var(--red2);background:#000;overflow:hidden}
+.vcard img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s,filter .3s}
+.vcard:hover img{transform:scale(1.03);filter:brightness(1.15)}
+.vframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
