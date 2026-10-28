@@ -221,3 +221,4 @@ input[type=range]{background:#3a0c12}input[type=range]::-webkit-slider-thumb{bac
 .rel-badge{font-size:9px;padding:3px 6px;top:8px;left:8px}
 .rel-card:hover .rel-cover,.rel-card.on .rel-cover{transform:translateY(-3px)}
 @media (max-width:420px){.rel-grid{grid-template-columns:repeat(2,1fr)}}
+.sc-frame{background:#0a0a0a;border:1px solid var(--line2);border-left:3px solid var(--red);padding:6px;border-radius:4px;box-shadow:0 0 18px rgba(176,0,16,.15)}.sc-frame iframe{display:block;background:#0a0a0a}
