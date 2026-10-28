@@ -164,3 +164,41 @@ nav ul{gap:6px 16px}
 .also{margin-top:28px}.also p{color:var(--m)}
 .rel-ph{display:flex;align-items:center;justify-content:center;aspect-ratio:1;background:radial-gradient(circle at 30% 30%,#3a3a3f,#141416)}
 .ph-t{font-family:Impact,"Arial Black",sans-serif;letter-spacing:4px;color:#cfcfd2;text-align:center;padding:10px}
+
+/* ===== RED / BLACK DARK-TECHNO THEME (overrides grey smoke) ===== */
+:root{--bg:#0a0a0a;--bg2:#120507;--bg3:#180709;--panel:#2a0a0e;--line:#3a0c12;--line2:#6a0f18;--t:#eee;--m:#b9a9ab;--hi:#fff;--steel:#b00010;--red:#b00010;--red2:#e0182a;--err:#e0182a}
+body{background:radial-gradient(ellipse at 50% 0,#2a0508 0,#120507 35%,#0a0a0a 75%) fixed #0a0a0a;color:var(--t)}
+.smoke i:nth-child(1){background:radial-gradient(closest-side,#7a0010,transparent),radial-gradient(closest-side at 70% 60%,#3a0008,transparent);opacity:.22}
+.smoke i:nth-child(2){background:radial-gradient(closest-side at 40% 50%,#5a000c,transparent),radial-gradient(closest-side at 80% 30%,#900014,transparent);opacity:.16}
+.smoke i:nth-child(3){background:radial-gradient(closest-side,#4a0009,transparent);opacity:.14}
+a{color:#fff;text-decoration-color:var(--red)}a:hover{color:var(--red2)}
+nav{background:rgba(10,10,10,.88);border-bottom:1px solid var(--red);box-shadow:0 2px 24px rgba(176,0,16,.35)}
+nav .logo{color:#fff;text-shadow:0 0 12px rgba(224,24,42,.7)}
+nav ul a{color:#ccc}nav ul a:hover,nav ul a.on,nav ul a:focus{color:var(--red2);text-shadow:0 0 10px rgba(224,24,42,.8)}
+h2{color:#eee;text-shadow:0 0 18px rgba(224,24,42,.6),0 0 40px rgba(176,0,16,.35);border-bottom:1px solid var(--red);padding-bottom:12px}
+h2:before{color:var(--red2)}
+section+section{border-top:1px solid rgba(176,0,16,.35)}
+.hero:before{background:radial-gradient(ellipse 60% 45% at 30% 55%,rgba(176,0,16,.28),transparent 70%),radial-gradient(ellipse 50% 40% at 75% 40%,rgba(120,0,12,.22),transparent 70%)}
+.kicker,.tag{color:#d9c6c8}.kicker{color:var(--red2)}
+h1{background:linear-gradient(180deg,#fff 0,#e0182a 60%,#7a0010 100%);-webkit-background-clip:text;background-clip:text;filter:drop-shadow(0 0 22px rgba(224,24,42,.55)) drop-shadow(0 10px 40px rgba(0,0,0,.9))}
+.btn{border-color:var(--red);background:rgba(18,5,7,.8);color:#eee;box-shadow:0 0 12px rgba(176,0,16,.35)}
+.btn:hover{border-color:var(--red2);background:var(--red);color:#fff;box-shadow:0 0 22px rgba(224,24,42,.8)}
+.card{border-color:var(--line);background:rgba(18,5,7,.85)}.card:hover{border-color:var(--red);background:rgba(30,6,9,.92);box-shadow:0 0 18px rgba(176,0,16,.35)}
+.card h3,.timeline h3,.row .tt,#now,.press a,.timeline a{color:#eee}
+.art,.row .cv,.rel-ph{background:radial-gradient(circle at 40% 40%,#3a0a10,#0a0a0a 70%)}
+.ph-t{color:#fff;text-shadow:0 0 12px rgba(224,24,42,.7)}
+footer{border-top:1px solid var(--red);color:#b9a9ab}
+.row{background:rgba(14,5,7,.88);border-bottom-color:#2a0a0e}.row:hover{background:rgba(40,6,10,.92);border-left-color:var(--red)}
+.row.playing{background:rgba(60,6,12,.92);border-left-color:var(--red2)}
+#player{background:rgba(10,10,10,.95);border-top:1px solid var(--red);box-shadow:0 -6px 30px rgba(176,0,16,.35)}
+#player button{border-color:var(--red)}#player button:hover{border-color:var(--red2);background:var(--red);color:#fff;box-shadow:0 0 14px rgba(224,24,42,.7)}
+input[type=range]{background:#3a0c12}input[type=range]::-webkit-slider-thumb{background:var(--red2)}input[type=range]::-moz-range-thumb{background:var(--red2)}
+.portrait{border-color:var(--red);filter:grayscale(.6) brightness(.75) contrast(1.15);box-shadow:0 0 40px rgba(176,0,16,.4)}
+.g-sub,.lhd,.tl-date,.press .press-date{color:var(--red2)}
+.g-item{border-color:var(--line);background:#120507}.g-item:hover{border-color:var(--red2);box-shadow:0 0 18px rgba(224,24,42,.5)}
+.g-item img{filter:grayscale(.4) brightness(.8)}
+#lightbox{background:rgba(10,0,2,.95)}#lightbox img{border-color:var(--red);box-shadow:0 0 60px rgba(176,0,16,.5)}
+.lk{color:#ddd;border-color:var(--line2);background:rgba(176,0,16,.06)}.lk:hover{color:#fff;border-color:var(--red2);background:rgba(176,0,16,.25);box-shadow:0 0 12px rgba(224,24,42,.5)}
+.timeline{border-left-color:var(--red)}.timeline li{border-bottom-color:var(--line)}.timeline li:before{background:var(--red2);box-shadow:0 0 10px var(--red2)}
+.rel-player{border-color:var(--red);background:#120507}.rel-player-head a{color:var(--red2)}
+.tab.on{border-color:var(--red2)}
