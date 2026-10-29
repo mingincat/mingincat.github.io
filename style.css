@@ -233,3 +233,5 @@ input[type=range]{background:#3a0c12}input[type=range]::-webkit-slider-thumb{bac
 .timeline .gig-poster{grid-column:2;grid-row:1/span 12;align-self:start;margin-top:0;width:76px}
 .timeline .gig-poster img{width:76px;height:100px}
 @media(max-width:600px){.timeline .gig-poster{width:56px}.timeline .gig-poster img{width:56px;height:74px}}
+/* media player bar disabled */
+body{padding-bottom:0}#player{display:none}
